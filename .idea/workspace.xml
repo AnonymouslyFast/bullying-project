@@ -23,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AnonymouslyFast"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AnonymouslyFast/bullying-project.git",
+    "accountId": "1fda8ee6-293e-4d08-9e97-96b1e978e109"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -84,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757346489391</updated>
       <workItem from="1757346491692" duration="490000" />
-      <workItem from="1757507097579" duration="10217000" />
+      <workItem from="1757507097579" duration="10539000" />
     </task>
     <servers />
   </component>
