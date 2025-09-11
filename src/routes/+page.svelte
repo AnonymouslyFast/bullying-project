@@ -80,7 +80,7 @@
     }
 
     #nav {
-        margin-top: 3%;
+        margin-top: 2%;
         display: flex;
         justify-self: center;
         flex-direction: column;
@@ -95,12 +95,13 @@
     }
 
     #nav-item {
-        padding: 1rem;
+        padding: 0.7rem;
         background-color: #F9A825;
-        border-radius: 2vw;
+        border-radius: 100vw;
         color: #7c3aed;
         transition: 0.3s linear all;
         font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
         text-decoration: none;
         &:hover {
             background-color: #7c3aed;
