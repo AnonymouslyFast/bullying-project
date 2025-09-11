@@ -13,12 +13,14 @@
 
     #shirt-img {
         max-width: 40% !important;
-        object-fit: scale-down;
-        aspect-ratio: 1/.8;
+        object-fit: cover;
 
         justify-self: right;
         padding: 0 !important;
         rotate: 10deg;
+    }
 
+    #nav {
+        justify-self: center;
     }
 }

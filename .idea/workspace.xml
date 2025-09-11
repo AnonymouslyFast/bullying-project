@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Fix for docker">
-      <change afterPath="$PROJECT_DIR$/src/routes/mobile.css" afterDir="false" />
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Changed up home design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mobile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="+page" />
         <option value="+layout" />
         <option value="Dockerfile" />
         <option value="CSS File" />
+        <option value="+page" />
       </list>
     </option>
   </component>
@@ -104,6 +104,8 @@
       <workItem from="1757507097579" duration="11090000" />
       <workItem from="1757525192871" duration="571000" />
       <workItem from="1757543904596" duration="1183000" />
+      <workItem from="1757593934892" duration="8215000" />
+      <workItem from="1757624017977" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -113,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757521897924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created home page">
+      <option name="closed" value="true" />
+      <created>1757599633516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757599633516</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed up home design">
+      <option name="closed" value="true" />
+      <created>1757603094552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757603094553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix for docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix for docker" />
+    <MESSAGE value="Created home page" />
+    <MESSAGE value="Changed up home design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed up home design" />
   </component>
 </project>
