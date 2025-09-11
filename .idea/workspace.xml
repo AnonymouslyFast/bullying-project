@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Changed up home design">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/main.css" afterDir="false" />
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Test for mobile fix">
       <change beforePath="$PROJECT_DIR$/src/routes/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mobile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +103,7 @@
       <workItem from="1757525192871" duration="571000" />
       <workItem from="1757543904596" duration="1183000" />
       <workItem from="1757593934892" duration="8215000" />
-      <workItem from="1757624017977" duration="314000" />
+      <workItem from="1757624017977" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -131,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757603094553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test for mobile fix">
+      <option name="closed" value="true" />
+      <created>1757624505178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757624505178</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +147,7 @@
     <MESSAGE value="Fix for docker" />
     <MESSAGE value="Created home page" />
     <MESSAGE value="Changed up home design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed up home design" />
+    <MESSAGE value="Test for mobile fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test for mobile fix" />
   </component>
 </project>

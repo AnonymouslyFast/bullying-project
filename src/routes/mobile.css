@@ -1,6 +1,7 @@
 @media (max-width: 800px) {
     #title-container {
         width: 100% !important;
+        padding: 2% !important;
     }
 
     #title-content {
