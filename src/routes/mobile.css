@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+    #title-container {
+        width: 100% !important;
+    }
+
+    #title-content {
+        gap: 3rem !important;
+    }
+
+    #title {
+        margin-left: 3%;
+    }
+
+    #shirt-img {
+        max-width: 40% !important;
+        object-fit: scale-down;
+        aspect-ratio: 1/.8;
+
+        justify-self: right;
+        padding: 0 !important;
+        rotate: 10deg;
+
+    }
+}

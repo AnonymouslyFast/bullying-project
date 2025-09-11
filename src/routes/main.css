@@ -13,5 +13,17 @@ body::before {
     background: radial-gradient(circle 100vw at center, #323232 0%, #211b1b 100%);
 }
 
+#copyright{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+    color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    a {
+        color: #F9A825;
+    }
+}
 
 

@@ -14,8 +14,22 @@
 </div>
 
 
+<div id="nav">
+    <div id="nav-content">
+        <a id="nav-item" href="learn/">Learn More</a>
+        <a id="nav-item" href="about/">About Us</a>
+    </div>
+</div>
+
+
+<div id="copyright">
+    <p>© 2025 <a href="#">Group 1</a>. All rights reserved.</p>
+</div>
+
 <style>
     @import './main.css'; /* background */
+    @import './mobile.css';
+
 
     #title-container {
         width: 60%;
@@ -23,9 +37,10 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 3%;
-        border-radius: 2vw;
+        margin-top: 6%;
 
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 1%;
         color: #cccccc;
     }
 
@@ -58,9 +73,46 @@
     #shirt-img {
         max-width: 35%;
         object-fit: scale-down;
+        aspect-ratio: 1/.8;
 
         justify-self: right;
         rotate: 10deg;
-
     }
+
+    #nav {
+        margin-top: 3%;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    #nav-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    #nav-item {
+        padding: 1rem;
+        background-color: #F9A825;
+        border-radius: 2vw;
+        color: #7c3aed;
+        transition: 0.3s linear all;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        &:hover {
+            background-color: #7c3aed;
+            scale: 98%;
+            color: #F9A825;
+        }
+        &:active {
+            scale: 95%;
+        }
+    }
+
+
+
+
 </style>
