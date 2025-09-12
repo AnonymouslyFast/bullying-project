@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Test for mobile fix">
-      <change beforePath="$PROJECT_DIR$/src/routes/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mobile.css" afterDir="false" />
-    </list>
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +101,7 @@
       <workItem from="1757525192871" duration="571000" />
       <workItem from="1757543904596" duration="1183000" />
       <workItem from="1757593934892" duration="8215000" />
-      <workItem from="1757624017977" duration="1091000" />
+      <workItem from="1757624017977" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -137,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757624505178</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testing">
+      <option name="closed" value="true" />
+      <created>1757628928431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757628928431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +154,7 @@
     <MESSAGE value="Created home page" />
     <MESSAGE value="Changed up home design" />
     <MESSAGE value="Test for mobile fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test for mobile fix" />
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
   </component>
 </project>

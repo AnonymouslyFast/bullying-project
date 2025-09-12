@@ -30,6 +30,11 @@
     @import './main.css'; /* background */
     @import './mobile.css';
 
+    #copyright{
+        position: absolute !important;
+
+    }
+
 
     #title-container {
         width: 60%;
@@ -57,7 +62,7 @@
         width: fit-content;
         h1 {
             font-family: 'Montserrat', sans-serif;
-            font-weight: 700; /* bold for impact */
+            font-weight: 700;
             font-size: 2.5rem;
             color: #FFFFFF;
         }
@@ -112,8 +117,5 @@
             scale: 95%;
         }
     }
-
-
-
 
 </style>
