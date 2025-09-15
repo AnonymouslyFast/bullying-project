@@ -15,6 +15,8 @@
 
     #nav {
         margin-top: 2%;
+        margin-bottom: 0;
+        padding: 0;
         display: flex;
         justify-self: center;
         flex-direction: column;

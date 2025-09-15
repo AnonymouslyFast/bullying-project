@@ -70,7 +70,7 @@
 
 
 <div style="margin-top: 5%;" id="copyright">
-    <p>© 2025 <a href="#">Group 1</a>. All rights reserved.</p>
+    <p>© 2025 <a href="./about#team">Group 1</a>. All rights reserved.</p>
 </div>
 
 <style>
