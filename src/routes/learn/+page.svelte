@@ -159,8 +159,8 @@
         border-radius: 2vw;
         width: 60%;
         box-shadow:
-                rgba(204, 204, 204, 0.2) 0px 0px 0px 1px inset,
-                rgba(204, 204, 204, 0.9) 0px 0px 0px 1px;
+                rgba(204, 204, 204, 0.2) 0 0 0 1px inset,
+                rgba(204, 204, 204, 0.9) 0 0 0 1px;
     .content {
         h4 {
             font-family: 'Montserrat', sans-serif;

@@ -1,5 +1,7 @@
 <script>
     import Navbar from "$lib/Navbar.svelte";
+    import {page} from "$app/state";
+    import {base} from "$app/paths";
 </script>
 
 <Navbar />
@@ -18,15 +20,8 @@
     </div>
 </div>
 
-<div id="nav">
-    <div id="nav-content">
-        <a id="nav-item" href="#team">The Team</a>
-        <a id="nav-item" href="#contact">Contact</a>
-    </div>
-</div>
-
 <div id="team-row">
-    <section id="team">
+    <section id="team" class:active={page.url.pathname === base + "/about#team"}>
         <div id="content">
             <h4>Meet The Team</h4>
 
@@ -37,7 +32,7 @@
                 </p>
             </div>
 
-            <div id="team-card">
+            <div  id="team-card">
                 <h5><a href="#">Damariah Ceasar</a></h5>
                 <p>
                     T-shirt, design, and research.
@@ -60,7 +55,7 @@
         </div>
     </section>
 
-    <section id="about">
+    <section class:active={page.url.pathname === base + "/about#team"} id="about">
         <div id="content">
             <h4>Who are we?</h4>
             <p>We are a group of four high school students doing this because we want the world to be
@@ -69,14 +64,16 @@
             </p>
         </div>
     </section>
+
+    <section class:active={page.url.pathname === base + "/about#contact"} id="contact">
+        <div id="content">
+            <h4>Contact us!</h4>
+            <a href="mailto:bullying@anonymouslyfast.com">bullying@anonymouslyfast.com</a>
+        </div>
+    </section>
 </div>
 
-<section id="contact">
-    <div id="content">
-        <h4>Contact us!</h4>
-        <a href="mailto:bullying@anonymouslyfast.com">bullying@anonymouslyfast.com</a>
-    </div>
-</section>
+
 
 <div id="copyright">
     <p>© 2025 <a href="#team">Group 1</a>. All rights reserved.</p>
@@ -126,40 +123,6 @@
         }
     }
 
-    #nav {
-        margin-top: 2%;
-        display: flex;
-        justify-self: center;
-        flex-direction: column;
-    }
-
-    #nav-content {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 3rem;
-    }
-
-    #nav-item {
-        padding: 0.7rem;
-        background-color: #F9A825;
-        border-radius: 100vw;
-        color: #7c3aed;
-        transition: 0.3s linear all;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        text-decoration: none;
-        &:hover {
-            background-color: #7c3aed;
-            scale: 98%;
-            color: #F9A825;
-        }
-        &:active {
-            scale: 95%;
-        }
-    }
-
     section {
         padding: 2rem;
         display: flex;
@@ -168,8 +131,8 @@
         border-radius: 2vw;
         width: fit-content;
         box-shadow:
-                rgba(204, 204, 204, 0.2) 0px 0px 0px 1px inset,
-                rgba(204, 204, 204, 0.9) 0px 0px 0px 1px;
+                rgba(204, 204, 204, 0.2) 0 0 0 1px inset,
+                rgba(204, 204, 204, 0.9) 0 0 0 1px;
 
         h4 {
             font-family: 'Montserrat', sans-serif;
@@ -248,7 +211,7 @@
     }
 
     #about {
-        width: 50%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         h4 {
@@ -256,7 +219,7 @@
         }
         p {
             justify-self: left;
-            width: 45%;
+            width: 100%;
             text-align: left;
             font-family: 'Poppins', sans-serif;
             font-size: 1rem;
