@@ -3,21 +3,23 @@
 
 
 
-<div id="title-container">
-    <div id="title-content">
-        <div id="title">
-            <h1>Stop<br>Bullying<br>Together!</h1>
-            <p>Kindness is strength.<br>Bullying is weakness.</p>
+<div class="container">
+    <div id="title-container">
+        <div id="title-content">
+            <div id="title">
+                <h1>Stop<br>Bullying<br>Together!</h1>
+                <p>Kindness is strength.<br>Bullying is weakness.</p>
+            </div>
+            <img id="shirt-img" src="shirt.png" alt="test shirt">
         </div>
-        <img id="shirt-img" src="shirt.png" alt="test shirt">
     </div>
-</div>
 
 
-<div id="nav">
-    <div id="nav-content">
-        <a id="nav-item" href="learn/">Learn More</a>
-        <a id="nav-item" href="about/">About Us</a>
+    <div id="nav">
+        <div id="nav-content">
+            <a id="nav-item" href="learn/">Learn More</a>
+            <a id="nav-item" href="about/">About Us</a>
+        </div>
     </div>
 </div>
 
@@ -34,7 +36,6 @@
         position: absolute !important;
 
     }
-
 
     #title-container {
         width: 60%;

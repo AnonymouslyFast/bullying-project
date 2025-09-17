@@ -3,70 +3,71 @@
 </script>
 
 
-<Navbar />
+<div class="container">
+    <Navbar />
 
-
-<div id="title-container">
-    <div id="title-content">
-        <div id="title">
-            <h1>Learn More</h1>
-            <p>
-                Bullying has been a constant in schools for a long time, so we've decided to compile
-                the most popular bullying types and define them.
-            </p>
+    <div id="title-container">
+        <div id="title-content">
+            <div id="title">
+                <h1>Learn More</h1>
+                <p>
+                    Bullying has been a constant in schools for a long time, so we've decided to compile
+                    the most popular bullying types and define them.
+                </p>
+            </div>
         </div>
     </div>
+
+    <div id="nav">
+        <div id="nav-content">
+            <a id="nav-item" href="#Cyber">Cyber</a>
+            <a id="nav-item" href="#physical">Physical</a>
+            <a id="nav-item" href="#verbal">Verbal</a>
+        </div>
+    </div>
+
+    <section id="cyber">
+        <div class="content">
+            <a href="#cyber"><h4>Cyber Bullying</h4></a>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum.
+            </p>
+        </div>
+    </section>
+
+    <section id="physical">
+        <div class="content">
+            <a href="#physical"><h4>Physical Bullying</h4></a>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum.
+            </p>
+        </div>
+    </section>
+
+    <section id="verbal">
+        <div class="content">
+            <a href="#verbal"><h4>Verbal Bullying</h4></a>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                est laborum.
+            </p>
+        </div>
+    </section>
 </div>
-
-<div id="nav">
-    <div id="nav-content">
-        <a id="nav-item" href="#Cyber">Cyber</a>
-        <a id="nav-item" href="#physical">Physical</a>
-        <a id="nav-item" href="#verbal">Verbal</a>
-    </div>
-</div>
-
-<section id="cyber">
-    <div class="content">
-        <a href="#cyber"><h4>Cyber Bullying</h4></a>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
-        </p>
-    </div>
-</section>
-
-<section id="physical">
-    <div class="content">
-        <a href="#physical"><h4>Physical Bullying</h4></a>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
-        </p>
-    </div>
-</section>
-
-<section id="verbal">
-    <div class="content">
-        <a href="#verbal"><h4>Verbal Bullying</h4></a>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
-        </p>
-    </div>
-</section>
 
 
 <div style="margin-top: 5%;" id="copyright">
@@ -107,12 +108,13 @@
         }
 
         p {
+            width: 70%;
             justify-self: center;
+            margin: 0 auto;
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
             font-size: 1.3rem;
             color: #F9A825;
-            width: 70%;
         }
     }
 
@@ -160,7 +162,7 @@
         width: 60%;
         box-shadow:
                 rgba(204, 204, 204, 0.2) 0 0 0 1px inset,
-                rgba(204, 204, 204, 0.9) 0 0 0 1px;
+                rgba(204, 204, 204, 0.9) 0   0 0 1px;
     .content {
         h4 {
             font-family: 'Montserrat', sans-serif;

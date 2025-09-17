@@ -1,76 +1,74 @@
-<script>
+<script lang="ts">
     import Navbar from "$lib/Navbar.svelte";
-    import {page} from "$app/state";
-    import {base} from "$app/paths";
 </script>
 
-<Navbar />
-
-
-
-<div id="title-container">
-    <div id="title-content">
-        <div id="title">
-            <h1>About Us</h1>
-            <p>
-                We are a group of four high school students that are determined
-                to make the world a better place!
-            </p>
+<div class="container">
+    <Navbar />
+    <div id="title-container">
+        <div id="title-content">
+            <div id="title">
+                <h1>About Us</h1>
+                <p>
+                    We are a group of four high school students that are determined
+                    to make the world a better place!
+                </p>
+            </div>
         </div>
     </div>
-</div>
 
-<div id="team-row">
-    <section id="team" class:active={page.url.pathname === base + "/about#team"}>
-        <div id="content">
-            <h4>Meet The Team</h4>
+    <div id="team-row">
+        <section id="team">
+            <div id="content">
+                <h4>Meet The Team</h4>
 
-            <div id="team-card">
-                <h5><a href="https://anonymouslyfast.com/">Caleb Shearer</a></h5>
+                <div id="team-card">
+                    <h5><a href="https://anonymouslyfast.com/">Caleb Shearer</a></h5>
+                    <p>
+                        T-shirt, design, and website.
+                    </p>
+                </div>
+
+                <div  id="team-card">
+                    <h5><a href="#">Damariah Ceasar</a></h5>
+                    <p>
+                        T-shirt, design, and research.
+                    </p>
+                </div>
+
+                <div id="team-card">
+                    <h5><a href="#">Ja'Qure Brown</a></h5>
+                    <p>
+                        T-shirt, design, and research.
+                    </p>
+                </div>
+
+                <div id="team-card">
+                    <h5><a href="#">Mehki Anderson</a></h5>
+                    <p>
+                        T-shirt, design, and research.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div id="content">
+                <h4>Who are we?</h4>
                 <p>
-                    T-shirt, design, and website.
+                    We are a group of four high school students doing this because we want the world to be
+                    a safer place. This project is to help people who might be experiencing bullying themselves,
+                    or people who just want to learn more about bullying.
                 </p>
             </div>
+        </section>
 
-            <div  id="team-card">
-                <h5><a href="#">Damariah Ceasar</a></h5>
-                <p>
-                    T-shirt, design, and research.
-                </p>
+        <section id="contact">
+            <div id="content">
+                <h4>Contact us!</h4>
+                <a href="mailto:bullying@anonymouslyfast.com">bullying@anonymouslyfast.com</a>
             </div>
-
-            <div id="team-card">
-                <h5><a href="#">Ja'Qure Brown</a></h5>
-                <p>
-                    T-shirt, design, and research.
-                </p>
-            </div>
-
-            <div id="team-card">
-                <h5><a href="#">Mehki Anderson</a></h5>
-                <p>
-                    T-shirt, design, and research.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class:active={page.url.pathname === base + "/about#team"} id="about">
-        <div id="content">
-            <h4>Who are we?</h4>
-            <p>We are a group of four high school students doing this because we want the world to be
-                a safer place. This project is to help people who might be experiencing bullying themselves,
-                or people who just want to learn more about bullying.
-            </p>
-        </div>
-    </section>
-
-    <section class:active={page.url.pathname === base + "/about#contact"} id="contact">
-        <div id="content">
-            <h4>Contact us!</h4>
-            <a href="mailto:bullying@anonymouslyfast.com">bullying@anonymouslyfast.com</a>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 
 
@@ -116,6 +114,7 @@
         p {
             justify-self: center;
             font-family: 'Montserrat', sans-serif;
+            margin: 0 auto;
             font-weight: 600;
             font-size: 1.3rem;
             color: #F9A825;

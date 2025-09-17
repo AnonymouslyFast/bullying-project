@@ -32,4 +32,11 @@ body::before {
 
 }
 
+.container {
+    display: flex;
+    align-items: center;       /* Centers vertically */
+    flex-direction: column;    /* Stack text/image/buttons */
+    min-height: 100vh;         /* Full screen height */
+}
+
 
