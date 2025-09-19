@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+    #team-row {
+        width: 100% !important;
+    }
+    section {
+        display: initial !important;
+        width: 100% !important;
+        h4 {
+            width: 100%!important;
+        }
+    }
+}

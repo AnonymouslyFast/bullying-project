@@ -80,6 +80,7 @@
 
 <style>
     @import "../main.css";
+    @import "./mobile.css";
 
     #title-container {
         width: 40%;

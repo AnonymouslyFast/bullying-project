@@ -54,4 +54,11 @@
             scale: 95%;
         }
     }
+
+    @media (max-width: 800px) {
+        #nav-content {
+            width: 100% !important;
+            gap: 1.5rem !important;
+        }
+    }
 </style>
