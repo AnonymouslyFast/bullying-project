@@ -30,12 +30,10 @@
         <div class="content">
             <a href="#cyber"><h4>Cyber Bullying</h4></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est laborum.
+                Cyber bullying refers to bullying someone through the internet using a computer device. Some examples of
+                these include sending hateful messages, or spreading rumors over social media sites. This
+                is an extremely common form of bullying since the rise of technology and is not taken seriously enough.
+                To combat this activity from your or someone else's messaging, report the user, and talk to a trusted adult.
             </p>
         </div>
     </section>
@@ -44,12 +42,10 @@
         <div class="content">
             <a href="#physical"><h4>Physical Bullying</h4></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est laborum.
+                Physical bullying refers to the act of physical contact to bully someone. This includes fighting, pushing,
+                or any other form of non-consensual contact to the person. It's one of the worse types of bullying, since
+                it's physically hurting the victim and can kill people. If you or someone you know is experiencing this
+                type of bullying, tell a trusted adult, and try to defuse the situation as best you can.
             </p>
         </div>
     </section>
@@ -58,12 +54,10 @@
         <div class="content">
             <a href="#verbal"><h4>Verbal Bullying</h4></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est laborum.
+                Verbal bullying refers to bullying someone through words. This includes name calling, spreading rumors, and
+                any other use of words to spread hate towards another individual. This type of bullying can cause someone to
+                have anxiety, and even sometimes depression. If you or someone you know is experiencing this, please tell
+                a trusted adult, and get away from these situations as best you can.
             </p>
         </div>
     </section>

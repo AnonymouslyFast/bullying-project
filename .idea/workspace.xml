@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Fixed design issues on other browsers.">
-      <change afterPath="$PROJECT_DIR$/src/routes/about/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/learn/mobile.css" afterDir="false" />
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Added mobile support to all pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/learn/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/learn/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,9 @@
       <workItem from="1758112877658" duration="4528000" />
       <workItem from="1758198109311" duration="723000" />
       <workItem from="1758200832025" duration="354000" />
-      <workItem from="1758283947625" duration="2333000" />
+      <workItem from="1758283947625" duration="3543000" />
+      <workItem from="1758296990528" duration="2527000" />
+      <workItem from="1758629107306" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -194,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758121182713</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added mobile support to all pages.">
+      <option name="closed" value="true" />
+      <created>1758287107386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758287107386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,7 @@
     <MESSAGE value="Added the about us page" />
     <MESSAGE value="Edited the about page." />
     <MESSAGE value="Fixed design issues on other browsers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed design issues on other browsers." />
+    <MESSAGE value="Added mobile support to all pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mobile support to all pages." />
   </component>
 </project>
