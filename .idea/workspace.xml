@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Added mobile support to all pages.">
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Mobile support and changed the text in learn more">
+      <change afterPath="$PROJECT_DIR$/static/Cyber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Physical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Verbal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/learn/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/learn/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +121,9 @@
       <workItem from="1758283947625" duration="3543000" />
       <workItem from="1758296990528" duration="2527000" />
       <workItem from="1758629107306" duration="601000" />
+      <workItem from="1758630356913" duration="8290000" />
+      <workItem from="1758807099800" duration="4202000" />
+      <workItem from="1759419809540" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -200,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758287107386</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Mobile support and changed the text in learn more">
+      <option name="closed" value="true" />
+      <created>1758638049761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758638049761</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +230,7 @@
     <MESSAGE value="Edited the about page." />
     <MESSAGE value="Fixed design issues on other browsers." />
     <MESSAGE value="Added mobile support to all pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mobile support to all pages." />
+    <MESSAGE value="Mobile support and changed the text in learn more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile support and changed the text in learn more" />
   </component>
 </project>
