@@ -29,18 +29,14 @@
     <section id="cyber">
         <div class="content">
             <a href="#cyber"><h4>Cyber Bullying</h4></a>
-            <div id="container-column">
-                <div id="container-row">
-                    <p>
-                        Cyber bullying refers to bullying someone through the internet using a computer device. Some examples of
-                        these include sending hateful messages, or spreading rumors over social media sites. This
-                        is an extremely common form of bullying since the rise of technology and is not taken seriously enough.
-                        To combat this activity from your or someone else's messaging, report the user, and talk to a trusted adult.
-                    </p>
-                </div>
-                <div id="container-row">
-                    <img src="Cyber.jpg" alt="phone on social media.">
-                </div>
+            <div class="container-column">
+                <p>
+                    Cyber bullying refers to bullying someone through the internet using a computer device. Some examples of
+                    these include sending hateful messages, or spreading rumors over social media sites. This
+                    is an extremely common form of bullying since the rise of technology and is not taken seriously enough.
+                    To combat this activity from your or someone else's messaging, report the user, and talk to a trusted adult.
+                </p>
+                <img src="Cyber.jpg" alt="phone on social media.">
             </div>
         </div>
     </section>
@@ -48,18 +44,14 @@
     <section id="physical">
         <div class="content">
             <a href="#physical"><h4>Physical Bullying</h4></a>
-            <div id="container-column">
-                <div id="container-row">
-                    <p>
-                        Physical bullying refers to the act of physical contact to bully someone. This includes fighting, pushing,
-                        or any other form of non-consensual contact to the person. It's one of the worse types of bullying, since
-                        it's physically hurting the victim and can kill people. If you or someone you know is experiencing this
-                        type of bullying, tell a trusted adult, and try to defuse the situation as best you can.
-                    </p>
-                </div>
-                <div id="container-row">
-                    <img src="Physical.jpg" alt="fist punching a wall.">
-                </div>
+            <div class="container-column">
+                <p>
+                    Physical bullying refers to the act of physical contact to bully someone. This includes fighting, pushing,
+                    or any other form of non-consensual contact to the person. It's one of the worse types of bullying, since
+                    it's physically hurting the victim and can kill people. If you or someone you know is experiencing this
+                    type of bullying, tell a trusted adult, and try to defuse the situation as best you can.
+                </p>
+                <img src="Physical.jpg" alt="fist punching a wall.">
             </div>
         </div>
     </section>
@@ -67,18 +59,14 @@
     <section id="verbal">
         <div class="content">
             <a href="#verbal"><h4>Verbal Bullying</h4></a>
-            <div id="container-column">
-                <div id="container-row">
-                    <p>
-                        Verbal bullying refers to bullying someone through words. This includes name calling, spreading rumors, and
-                        any other use of words to spread hate towards another individual. This type of bullying can cause someone to
-                        have anxiety, and even sometimes depression. If you or someone you know is experiencing this, please tell
-                        a trusted adult, and get away from these situations as best you can.
-                    </p>
-                </div>
-                <div id="container-row">
-                    <img src="Verbal.png" alt="woman yelling.">
-                </div>
+            <div class="container-column">
+                <p>
+                    Verbal bullying refers to bullying someone through words. This includes name calling, spreading rumors, and
+                    any other use of words to spread hate towards another individual. This type of bullying can cause someone to
+                    have anxiety, and even sometimes depression. If you or someone you know is experiencing this, please tell
+                    a trusted adult, and get away from these situations as best you can.
+                </p>
+                <img src="Verbal.png" alt="woman yelling.">
             </div>
         </div>
     </section>
@@ -195,8 +183,10 @@
         p {
             color: #cccccc;
             font-family: 'Poppins', sans-serif;
-            font-size: 1rem;
+            font-weight: lighter;
+            font-size: 1.5rem;
             max-width: 60%;
+            width: fit-content;
         }
         a {
             text-decoration: none;
@@ -206,24 +196,17 @@
 
     }
 
-
-    #container-column {
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container-row {
-        width: fit-content !important;
-        display: flex;
+    .container-column {
+        display: inline-flex !important;
         flex-direction: row;
-        flex-wrap: nowrap;
-        margin: 0 auto;
         gap: 2rem;
+        width: 100%;
+        height: 100%;
+
         img {
-            width: 20%;
-            padding: 0;
-            margin: 0;
+            width: 30%;
+            border-radius: 2vw;
+            object-fit: cover;
         }
     }
 </style>

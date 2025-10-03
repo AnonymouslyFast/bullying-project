@@ -9,8 +9,8 @@
             <div id="title">
                 <h1>About Us</h1>
                 <p>
-                    We are a group of four high school students that are determined
-                    to make the world a better place!
+                    We are a group of four high school students from 2 different high schools that came together, and
+                    are determined to make the world a better place!
                 </p>
             </div>
         </div>

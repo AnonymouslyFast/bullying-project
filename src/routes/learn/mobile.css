@@ -2,7 +2,31 @@
     section {
         width: 70% !important;
         p {
-            width: 90% !important;
+            max-width: 100% !important;
+            font-size: 1rem !important;
         }
+    }
+
+    .container-column {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        img {
+            width: 100% !important;
+        }
+    }
+
+    #title-container {
+        width: 100% !important;
+    }
+
+    #title {
+        p {
+            width: 100% !important;
+        }
+    }
+
+    #nav {
+        margin-top: 5% !important;
     }
 }

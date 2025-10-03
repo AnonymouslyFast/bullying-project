@@ -1,13 +1,21 @@
 @media (max-width: 800px) {
+
+    #title-container {
+        width: 100% !important;
+        p {
+            width: 100% !important;
+            font-size: 1rem;
+        }
+    }
+
     #team-row {
         width: 100% !important;
     }
 
     section {
         display: initial !important;
-        width: 100% !important;
+        width: 80% !important;
         h4 {
-            width: 100% !important;
         }
     }
 }
