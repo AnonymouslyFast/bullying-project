@@ -7,6 +7,7 @@
     <div id="nav-content">
         <a class:active={page.url.pathname === base + "/"} id="nav-item" href="{base}/">Home</a>
         <a class:active={page.url.pathname === base + "/learn"} id="nav-item" href="{base}/learn">Learn More</a>
+        <a class:active={page.url.pathname === base + "/hoodie"} id="nav-item" href="{base}/hoodie">Hoodie Info</a>
         <a class:active={page.url.pathname === base + "/about"} id="nav-item" href="{base}/about">About Us</a>
     </div>
 </div>
@@ -16,18 +17,19 @@
     #nav {
         margin-top: 2%;
         margin-bottom: 0;
+        margin-left: 2%;
+        width: fit-content;
         padding: 0;
         display: flex;
-        justify-self: center;
+        justify-self: left;
         flex-direction: column;
     }
 
     #nav-content {
         margin-top: 1%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        gap: 3rem;
         .active {
             background-color: #7c3aed;
             color: #F9A825;
@@ -37,21 +39,18 @@
     }
 
     #nav-item {
-        padding: 0.8rem;
-        background-color: #F9A825;
-        border-radius: 100vw;
-        color: #7c3aed;
         transition: 0.3s linear all;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         text-decoration: none;
+        color: #F9A825;
+        text-align: center;
+        background-color: initial !important;
         &:hover {
-            background-color: #7c3aed;
-            scale: 98%;
-            color: #F9A825;
+
         }
         &:active {
-            scale: 95%;
+            border: 5px solid #cccccc !important;
         }
     }
 
