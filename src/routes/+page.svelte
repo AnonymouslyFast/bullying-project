@@ -10,7 +10,7 @@
                 <h1>Stop<br>Bullying<br>Together!</h1>
                 <p>Kindness is strength.<br>Bullying is weakness.</p>
             </div>
-            <img id="shirt-img" src="shirt.png" alt="test shirt">
+            <img id="shirt-img" src="Hoodie-front.png" alt="test shirt">
         </div>
     </div>
 
@@ -18,6 +18,7 @@
     <div id="nav">
         <div id="nav-content">
             <a id="nav-item" href="learn/">Learn More</a>
+            <a id="nav-item" href="hoodie/">Hoodie Info</a>
             <a id="nav-item" href="about/">About Us</a>
         </div>
     </div>
