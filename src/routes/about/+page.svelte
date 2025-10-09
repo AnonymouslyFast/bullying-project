@@ -222,7 +222,7 @@
             width: 100%;
             text-align: left;
             font-family: 'Poppins', sans-serif;
-            font-size: 1rem;
+            font-size: 1.3rem;
             color: #cccccc;
         }
     }

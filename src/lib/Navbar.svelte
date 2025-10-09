@@ -17,19 +17,18 @@
     #nav {
         margin-top: 2%;
         margin-bottom: 0;
-        margin-left: 2%;
-        width: fit-content;
         padding: 0;
         display: flex;
-        justify-self: left;
+        justify-self: center;
         flex-direction: column;
     }
 
     #nav-content {
         margin-top: 1%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
+        gap: 3rem;
         .active {
             background-color: #7c3aed;
             color: #F9A825;
@@ -39,18 +38,21 @@
     }
 
     #nav-item {
+        padding: 0.8rem;
+        background-color: #F9A825;
+        border-radius: 100vw;
+        color: #7c3aed;
         transition: 0.3s linear all;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         text-decoration: none;
-        color: #F9A825;
-        text-align: center;
-        background-color: initial !important;
         &:hover {
-
+            background-color: #7c3aed;
+            scale: 98%;
+            color: #F9A825;
         }
         &:active {
-            border: 5px solid #cccccc !important;
+            scale: 95%;
         }
     }
 

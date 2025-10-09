@@ -1,9 +1,11 @@
 <script>
+    import Navbar from "$lib/Navbar.svelte";
 </script>
 
 
 
 <div class="container">
+    <Navbar />
     <div id="title-container">
         <div id="title-content">
             <div id="title">
@@ -11,15 +13,6 @@
                 <p>Kindness is strength.<br>Bullying is weakness.</p>
             </div>
             <img id="shirt-img" src="Hoodie-front.png" alt="test shirt">
-        </div>
-    </div>
-
-
-    <div id="nav">
-        <div id="nav-content">
-            <a id="nav-item" href="learn/">Learn More</a>
-            <a id="nav-item" href="hoodie/">Hoodie Info</a>
-            <a id="nav-item" href="about/">About Us</a>
         </div>
     </div>
 </div>
@@ -40,15 +33,11 @@
 
     #title-container {
         width: 60%;
-        justify-self: center;
+        height: 80vh;
+        justify-content: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 6%;
-
-        border-bottom: 1px solid #cccccc;
-        padding-bottom: 1%;
-        color: #cccccc;
     }
 
     #title-content {
