@@ -18,14 +18,6 @@
         </div>
     </div>
 
-    <div id="nav">
-        <div id="nav-content">
-            <a id="nav-item" href="#Cyber">Cyber</a>
-            <a id="nav-item" href="#physical">Physical</a>
-            <a id="nav-item" href="#verbal">Verbal</a>
-        </div>
-    </div>
-
     <section id="cyber">
         <div class="content">
             <a href="#cyber"><h4>Cyber Bullying</h4></a>
@@ -122,42 +114,8 @@
         }
     }
 
-    #nav {
-        margin-top: 2%;
-        display: flex;
-        justify-self: center;
-        flex-direction: column;
-    }
-
-    #nav-content {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 3rem;
-    }
-
-    #nav-item {
-        padding: 0.7rem;
-        background-color: #F9A825;
-        border-radius: 100vw;
-        color: #7c3aed;
-        transition: 0.3s linear all;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        text-decoration: none;
-        &:hover {
-            background-color: #7c3aed;
-            scale: 98%;
-            color: #F9A825;
-        }
-        &:active {
-            scale: 95%;
-        }
-    }
-
     section {
-        margin-top: 5%;
+        margin-top: 3%;
         padding: 2rem;
         display: flex;
         justify-self: center;
