@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Created new page, and imported new hoodie pictures. Working on navbar new design.">
+    <list default="true" id="cf3a9e9c-2d8f-4a38-8f01-ed52ea2ff71f" name="Changes" comment="Added content to hoodie tab">
+      <change afterPath="$PROJECT_DIR$/src/routes/hoodie/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/hoodie/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hoodie/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/learn/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/learn/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.28293.44" />
       </set>
     </attachedChunks>
   </component>
@@ -126,6 +127,7 @@
       <workItem from="1759419809540" duration="2848000" />
       <workItem from="1759443637188" duration="896000" />
       <workItem from="1759446335690" duration="4378000" />
+      <workItem from="1760628530843" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for docker">
       <option name="closed" value="true" />
@@ -215,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758638049761</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added content to hoodie tab">
+      <option name="closed" value="true" />
+      <created>1760549353720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760549353720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added content to hoodie tab">
+      <option name="closed" value="true" />
+      <created>1760549381403</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760549381403</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +251,7 @@
     <MESSAGE value="Fixed design issues on other browsers." />
     <MESSAGE value="Added mobile support to all pages." />
     <MESSAGE value="Mobile support and changed the text in learn more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile support and changed the text in learn more" />
+    <MESSAGE value="Added content to hoodie tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added content to hoodie tab" />
   </component>
 </project>

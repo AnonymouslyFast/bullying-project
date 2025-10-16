@@ -57,6 +57,7 @@
 
 <style>
     @import "../main.css";
+    @import './mobile.css';
 
 
     #title-container {
@@ -155,7 +156,7 @@
     }
 
     #bottom-container {
-        width: 60%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -164,9 +165,11 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-top: 5%;
         gap: 1rem;
+        align-items: center;
+        justify-content: center;
     }
 
     #item {
@@ -174,8 +177,9 @@
         box-shadow:
                 rgba(204, 204, 204, 0.2) 0 0 0 1px inset,
                 rgba(204, 204, 204, 0.9) 0   0 0 1px;
-        width: 45%;
+        width: 30%;
         padding: 2%;
+        min-width: fit-content;
         h4 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;

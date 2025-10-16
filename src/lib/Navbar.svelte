@@ -27,7 +27,7 @@
         margin-top: 1%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 3rem;
         .active {
             background-color: #7c3aed;
@@ -45,6 +45,10 @@
         transition: 0.3s linear all;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-decoration: none;
         &:hover {
             background-color: #7c3aed;
